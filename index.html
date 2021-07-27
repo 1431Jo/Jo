@@ -12,27 +12,31 @@
 
     <!-- style for index -->
     <link href="./style/indexstyle.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 
     <!-- JavaScript -->
 <script src="./JS/font.js"></script>
 
                 <!-- background video -->
-</head> <video id="video" loop src=""></video>
+</head> <video id="video" loop src="Vid1.mp4"></video>
 
 <body>
     <div class="container">
 
-        <div class="accounts">
+        <div class="animate__animated animate__zoomIn accounts">
             <a class="aAccounts" href="https://github.com/1431Jo">github</a><br>
             <a class="aAccounts" href="https://twitter.com/1431Jo1">twitter</a><br>
             <a class="aAccounts" href="https://open.spotify.com/user/4zg5w79oepwwj7n1ijkj3aadr">spotify</a>
         </div>
 
-        <div class="video">
+        <div class="animate__animated animate__zoomIn muted" onclick="playMusic();">
             <h3>Click here to play the video!</h3>
         </div>
 
-        <div>
+        <div class="animate__animated animate__zoomIn">
             <h1 id="tabAboutMe" class="AboutMe" onclick="showThings('aboutMe')">About me</h1>
             <div id="aboutMe" style="display: none;">
                 <h3 class="AboutMeInv">Name: Jo 
@@ -40,11 +44,13 @@
             </div>
         </div>    
 
-        <div class="credits">
+        <div class="animate__animated animate__zoomIn credits">
             <p>©Joツ2021 
-            <br>Video by: <a href="">Name of the creator</a><p>
+            <br>Video by: <a href="https://www.youtube.com/channel/UCKgNIg9ksaTnEOSyJEcYcfQ">Cill4R</a><p>
         </div>
     </div>
 </body>
+
+<script src="./JS/video.js"></script>
 
 </html>
