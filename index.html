@@ -13,10 +13,38 @@
     <!-- style for index -->
     <link href="./style/indexstyle.css" rel="stylesheet">
 
+    <!-- JavaScript -->
+<script src="./JS/font.js"></script>
+
                 <!-- background video -->
 </head> <video id="video" loop src=""></video>
 
 <body>
-    
+    <div class="container">
+
+        <div class="accounts">
+            <a class="aAccounts" href="https://github.com/1431Jo">github</a><br>
+            <a class="aAccounts" href="https://twitter.com/1431Jo1">twitter</a><br>
+            <a class="aAccounts" href="https://open.spotify.com/user/4zg5w79oepwwj7n1ijkj3aadr">spotify</a>
+        </div>
+
+        <div class="video">
+            <h3>Click here to play the video!</h3>
+        </div>
+
+        <div>
+            <h1 id="tabAboutMe" class="AboutMe" onclick="showThings('aboutMe')">About me</h1>
+            <div id="aboutMe" style="display: none;">
+                <h3 class="AboutMeInv">Name: Jo 
+                <br>Programming, Anime, Science, Games, Music<h3>
+            </div>
+        </div>    
+
+        <div class="credits">
+            <p>©Joツ2021 
+            <br>Video by: <a href="">Name of the creator</a><p>
+        </div>
+    </div>
 </body>
+
 </html>
